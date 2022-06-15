@@ -1,0 +1,117 @@
+html, body {
+  font-family: 'Lato', 'Noto Sans TC', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #f6f7f8;
+}
+header {
+  height: 60px;
+  color: #666666;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
+}
+nav {
+  max-width: 820px;
+  margin: 0 auto;
+    height: 100%;
+  padding: 0 20px;
+  display: flex;        /* 把容器變成 flex 容器 */
+  align-items: center;  /* 垂直置中 */
+  justify-content: space-between; /* 水平分散 */
+}
+.nav-title {
+  font-weight: bold;   /* 粗體 */
+  letter-spacing: 1px; /* 字元間距 */
+}
+.nav-link {
+  color: #666666;      /* 覆蓋超連結的預設藍色 */
+}
+main {
+  max-width: 780px;    /* 限制最大寬度 */
+  margin: 0 auto;      /* 容器水平置中 */
+  padding: 40px 20px;  /* 留白 */
+}
+h2 {
+  font-size: 32px;
+  margin: 24px 0 8px;  /* 上 右 下，最後一個值會帶入 右 的設定 */
+}
+h3 {
+  font-size: 21px;
+  margin: 0 0 8px;
+  font-weight: 500;    /* 字體粗細 */
+}
+section {
+  margin-bottom: 48px;
+}
+p {
+ color: #666666; 
+}
+hr {
+  border: 0px;  /* 不要框架 */
+  height: 1px;  /* 設定 1px 的高度 */
+  background: #cccccc;  /* 讓背景色填滿高度 1px 的元素空間 */
+  margin: 20px 0;
+}
+.company, .duration {
+  color: #666666;    /* 有質感的淺灰色 */
+  font-size: 12px;   /* 有質感的小字 */
+  margin-right: 20px;  /* 兩組資訊之間的間隔 (大) */
+}
+.fa-building, .fa-calendar-alt {
+  margin-right: 5px;  /* 圖示與文字間隔 (小) */
+}
+/* Personal Info */
+.avatar {
+  text-align: center;  /* 內容置中 */
+}
+.avatar-img {
+  width: 20%;
+  border-radius: 50%;  /* 圓框效果 */
+}
+.name {
+  text-align: center;  /* 內容置中 */
+  font-size: 32px;
+  margin: 20px 0;
+}
+.social-media {
+  text-align: center;  /* 內容置中 */
+  margin-bottom: 20px;  /* 下方邊距 */
+}
+.social-media-link {
+  color: #999999;         /* 文字顏色 */
+  text-decoration: none;  /* 沒有底線 */
+  margin: 0 5px;          /* 圖示間隔 */
+}
+.social-media-link:hover {  /* 滑鼠移過時啟用這組設定 */
+  color: #ff6600;
+}
+.title { 
+  margin-bottom: 20px;
+  text-align: center;  /* 內容置中 */
+  font-size: 14px;      
+  letter-spacing: 2px;  /* 字元間距 */
+  color: #ff6600;
+}
+.avatar-img {
+  border-radius: 50%;  /* 圓框效果 */
+}
+.social-media-link {
+  color: #999999;         /* 文字顏色 */
+  text-decoration: none;  /* 沒有底線 */
+  margin: 0 5px;          /* 圖示間隔 */
+}
+.social-media-link:hover {  /* 滑鼠移過時啟用這組設定 */
+  color: #ff6600;
+}
+/* Skill Section */
+.skills {
+  display: flex;  /* 讓容器成為 flex 排列系統 */
+  justify-content: space-between;  /* 水平分散 */
+}
+.skill {
+  width: 30%;  /* 每組文字佔用容器寬度 30% */
+}
+.skill-name {
+  border-top: 1px solid #999999;  /* 為質感加一個上框線 */
+  padding-top: 16px;              /* 上框線與文字之間留白 */
+}
